@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Open Sans', 'sans-serif'],
-        serif: ['Merriweather', 'serif'],
+        sans: ['Verdana', 'Geneva', 'sans-serif'],
+        serif: ['Georgia', 'Times New Roman', 'serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -59,9 +59,11 @@ export default {
           DEFAULT: "hsl(var(--header-bg))",
           foreground: "hsl(var(--header-foreground))",
         },
-        "sidebar-bg": "hsl(var(--sidebar-bg))",
+        nav: "hsl(var(--nav-bg))",
+        "sidebar-box": "hsl(var(--sidebar-box-bg))",
         "sidebar-accent": "hsl(var(--sidebar-accent-bg))",
         "section-border": "hsl(var(--section-border))",
+        "page-border": "hsl(var(--page-border))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
