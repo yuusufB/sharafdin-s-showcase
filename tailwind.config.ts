@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Verdana', 'Geneva', 'sans-serif'],
-        serif: ['Georgia', 'Times New Roman', 'serif'],
+        sans: ['Roboto', 'sans-serif'],
+        serif: ['Roboto', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
