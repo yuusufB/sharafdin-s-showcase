@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Roboto', 'sans-serif'],
-        serif: ['Roboto', 'sans-serif'],
+        sans: ['Arial', 'Helvetica', 'sans-serif'],
+        serif: ['Arial', 'Helvetica', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -58,10 +58,16 @@ export default {
         header: {
           DEFAULT: "hsl(var(--header-bg))",
           foreground: "hsl(var(--header-foreground))",
+          subtitle: "hsl(var(--header-subtitle))",
         },
         nav: {
           DEFAULT: "hsl(var(--nav-bg))",
           foreground: "hsl(var(--nav-foreground))",
+          border: "hsl(var(--nav-border))",
+        },
+        footer: {
+          DEFAULT: "hsl(var(--footer-bg))",
+          text: "hsl(var(--footer-text))",
         },
         "sidebar-box": "hsl(var(--sidebar-box-bg))",
         "sidebar-accent": "hsl(var(--sidebar-accent-bg))",
