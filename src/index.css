@@ -35,11 +35,12 @@
     --radius: 0rem;
 
     /* Custom tokens for sharafdin.com - #7295AD = hsl(207, 26%, 63%) */
-    --header-bg: 207 25% 45%;
+    --header-bg: 207 18% 58%;
     --header-foreground: 0 0% 100%;
-    --nav-bg: 207 20% 55%;
-    --link: 207 26% 56%;
-    --link-hover: 207 30% 45%;
+    --nav-bg: 207 12% 72%;
+    --nav-foreground: 0 0% 25%;
+    --link: 207 26% 50%;
+    --link-hover: 207 30% 40%;
     --section-border: 207 26% 70%;
     --sidebar-box-bg: 207 15% 88%;
     --sidebar-accent-bg: 35 50% 88%;

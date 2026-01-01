@@ -24,7 +24,7 @@ export function Header() {
                 href={item.href}
                 target={item.href.startsWith('http') ? '_blank' : undefined}
                 rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                className="inline-block px-5 py-2 text-sm text-header-foreground font-medium hover:bg-white/10 transition-colors tracking-wide"
+                className="inline-block px-5 py-2 text-sm text-nav-foreground font-medium hover:bg-white/20 transition-colors tracking-wide"
               >
                 {item.label}
               </a>
